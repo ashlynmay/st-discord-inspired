@@ -90,7 +90,7 @@ body:has(#left-nav-panel.openDrawer) {
 
 #character_name_pole {
   position: absolute;
-  top: 12%;
+  top: 13%;
   width: 77%;
 }
 
@@ -320,8 +320,6 @@ select,
 #character_search_bar {
   position: absolute;
   top: 8px;
-  right: 8px;
-  width: 80%;
 }
 
 hr {
@@ -379,8 +377,8 @@ hr {
 }
 
 #avatar_load_preview {
-  width: 48px;
-  height: 32px;
+  width: 6vh !important;
+  height: 6vh !important;
 }
 
 .showTagList {
@@ -498,7 +496,7 @@ hr {
 }
 
 .text_pole {
-  border: none;
+  border: none; 
 }
 
 #first_message_div {
@@ -757,7 +755,6 @@ body * {
   border: none;
   border-radius: unset;
   left: var(--nav-bar-width);
-  margin: 0;
   z-index: 20 !important;
   box-shadow: none;
   top: 0;
@@ -959,6 +956,224 @@ input[type="checkbox"]:not(#nav-toggle):not(#rm_button_panel_pin):not(
     );
     border-radius: 5px;
   }
+}
+body #vv--root {
+  width: 240px;
+  right: unset;
+  left: var(--nav-bar-width);
+  max-height: 100svh;
+  z-index: 2000 !important;
+}
+body:has(#vv--root) {
+  --char-panel-width: 240px;
+}
+body {
+  --primaryBgCol: 49, 51, 57;
+  --primaryBgAlpha: 0.8;
+  --secondaryBg: rgba(42, 45, 50, 1);
+  --tertiaryBg: rgba(31, 31, 34, 1);
+}
+
+script {
+  display: none !important;
+}
+
+#user-settings-block, #WorldInfo, #rm_api_block, #left-nav-panel, .drawer-content, #right-nav-panel {
+  margin-left: var(--nav-bar-width);
+ }
+
+.drawer-content, .scrollableInner, #userSettingsRowOne, #CharListButtonAndHotSwaps {
+  max-width: calc(100vw - var(--nav-bar-width)) !important;
+ }
+
+#top-bar {
+ z-index: 10000;
+ }
+
+#right-nav-panel, #left-nav-panel, #floating-prompt {
+  top: 0dvh !important;
+ }
+
+#character_search_bar { 
+ left: 12%;
+ width: 68%;
+ }
+
+#rm_characters_block {
+  max-width: calc(100vw - var(--nav-bar-width) - 1.9%);
+ }
+
+#rm_ch_create_block {
+  max-width: calc(100vw - var(--nav-bar-width) - 3%);
+ }
+
+#rm_button_selected_ch {
+ justify-content: unset !important;
+}
+
+#result_info {
+ width: 80% !important;
+}
+
+.drawer-content select:nth-child(1), #tags_div:nth-child(2), #bulk_tags_div {
+ width: 133% !important
+}
+
+.form_create_bottom_buttons_block {
+margin-left: 63% !important;
+}
+
+#rm_button_selected_ch h2{
+  position: unset !important;
+  left: 20% !important
+}
+
+.stlp--container {
+ padding-left: var(--nav-bar-width) !important;
+}
+
+.stlp--container {
+  padding-top: unset
+  }
+
+.stlp--cards {
+ height: 96dvh !important;
+ justify-content: center;
+ align-content: center;
+ padding-top: unset !important;
+ }
+
+.drawer-content {
+left: unset !important;
+}
+
+.flex-container.flexnowrap.alignitemscenter:nth-child(1) {
+ flex-direction: column;
+}
+
+#top-settings-holder {
+ justify-content: center;
+}
+
+.flex-container.flexnowrap.alignitemscenter:nth-child(2) {
+ flex-direction: row;
+}
+
+#rm_group_top_bar {
+ max-width: calc(100vw - var(--nav-bar-width) - 3%);
+}
+
+#rm_group_chats_block {
+  max-width: calc(100vw - var(--nav-bar-width) - 1.8%) !important;
+ }
+
+.avatar_div {
+ padding-right: unset !important;
+}
+
+.form_create_bottom_buttons_block {
+ ;
+}
+
+.flex-container.flexFlowColumn:nth-child(1) {
+ gap: 10px
+}
+
+#world_info {
+ max-width: calc(100vw - var(--nav-bar-width) - 15%) !important;
+}
+
+#main_api {
+ max-width: calc(100vw - var(--nav-bar-width) - 10%) !important;
+}
+
+#char-management-dropdown {
+ position: absolute;
+ top: 20%;
+ width: 80% !important;
+}
+
+#tags_div {
+ position: absolute !important;
+ top: 24%;
+ max-width: 80% !important;
+}
+
+#description_div {
+ position: absolute;
+ top: 32%;
+}
+
+#description_textarea {
+ position: absolute;
+ top: 35%;
+ max-width: 80%;
+}
+
+.extension_token_counter:nth-child(8) {
+ position: absolute;
+ bottom: 8%;
+ width: 78vw
+}
+
+.extension_token_counter:nth-child(5) {
+ position: absolute;
+ bottom: 42%;
+ width: 78vw
+}
+
+#first_message_div {
+ position: absolute;
+ bottom: 32%;
+}
+
+#firstmessage_textarea {
+ position: absolute;
+ bottom: 11%;
+ width: 80%;
+}
+
+.form_create_bottom_buttons_block:nth-child(1) {
+  flex-wrap: nowrap !important;
+ position: absolute;
+ top: 10%;
+ right: 17%;
+}
+
+.extension_token_counter:nth-child(2) {
+ position: absolute;
+ top: 17.25%;
+ width: 78vw
+}
+
+#result_info:nth-child(2) {
+ position: absolute;
+ top:6%;
+ width: 78vw
+}
+
+#character_name_pole {
+ width: 80vw
+}
+
+#avatar_load_preview {
+ position: relative;
+ top: -40
+}
+
+#groupTagInput {
+ position: relative;
+ top: 17%;
+ right: unset;
+ width: 70%;
+}
+
+.character_select {
+ justify-content: space-evenly
+}
+
+#rm_button_selected_ch {
+ left: 12%;
 }
 
 /* Move lorebook pagination info to the top */
