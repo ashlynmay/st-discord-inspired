@@ -34,8 +34,13 @@ Open Silly Tavern, go to the extensions page (three blocks icon) and click on in
 
 > Then scroll down until you see "Custom CSS" and click on the icon next to it.
 
+
 >  At this point a new tab should open that says "CSS Snippets". Click on the import icon closest to the text, and select the CSS file you previously downloaded.
 
 > Then click the checkbox marked "Theme". The theme should now be applied, and you can give the snippet a name if you want, I'd recommend something with the version number in it.
 
 The theme is now installed, you may go back to Silly Tavern.
+
+# Custom Colors
+The background color is tied to the chat background selector in Silly Tavern's user settings.
+The sidebar color is tied to the UI background selector.
