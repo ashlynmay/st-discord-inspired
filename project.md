@@ -3,4 +3,4 @@ https://cdn.discordapp.com/attachments/972080189339213875/1233499456926646332/st
 a mobile port of a discord inspired theme for silly tavern
 https://github.com/ashlynmay/st-discord-inspired
 web
-True
+1
