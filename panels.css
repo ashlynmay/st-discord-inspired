@@ -1,0 +1,36 @@
+#sheld,
+#left-nav-panel {
+    max-width: calc(100vw - var(--sidebar_width));
+    height: 100vh;
+    max-height: unset;
+    top: unset;
+    float: right;
+    min-width: unset !important;
+    left: unset !important;
+    top: 0 !important;
+    right: 0;
+    max-width: calc(100vw - var(--sidebar_width)) !important;
+}
+
+#right-nav-panel {
+    max-height: unset;
+    height: 50vh;
+    top: 0vh !important;
+    min-width: calc(100vw - var(--sidebar_width)) !important;
+    max-width: calc(100vw - var(--sidebar_width)) !important;
+    left: unset !important;
+    background-color: var(--panelColor);
+}
+
+.drawer-content {
+    max-width: calc(100vw - var(--sidebar_width)) !important;
+    height: 60vh;
+    max-height: unset;
+    float: right;
+    left: unset !important;
+    top: 0vh !important;
+    min-width: unset !important;
+    background-color: var(--panelColor);
+    border: unset;
+    border-radius: var(--borderRadius) 0px var(--borderRadius) var(--borderRadius) !important;
+}

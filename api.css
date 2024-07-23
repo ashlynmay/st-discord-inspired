@@ -1,0 +1,96 @@
+/* chat completion */
+#rm_api_block>div.flex-container.flexFlowColumn {
+    margin: 2vw;
+}
+
+.text_pole.flex1.wide100p,
+.text_pole.flex1 {
+    background-color: var(--bubbleColor);
+    border: unset;
+    border-radius: var(--borderRadius) 0 0 var(--borderRadius);
+    height: 5vh;
+    padding-left: 3.75vw;
+}
+
+#openai_api>div.inline-drawer.wide100p>div.inline-drawer-toggle.inline-drawer-header {
+    background-color: var(--bubbleColor);
+    border: unset;
+    border-radius: var(--borderRadius);
+    height: 5vh;
+    padding: 7px 0vw;
+    padding-left: 5vw;
+    padding-right: 3.75vw;
+    align-content: center !important;
+}
+
+.menu_button.fa-solid.fa-circle-xmark.clear-api-key {
+    background-color: var(--bubbleColor);
+    border: unset;
+    border-radius: 0 var(--borderRadius) var(--borderRadius) 0 !important;
+    padding-right: 3.75vw;
+}
+
+#openai_form>div.flex-container {
+    gap: 0;
+}
+
+#openai_form>div.flex-container>div::before {
+    font-size: 1.4em;
+}
+
+#model_openai_select {
+    border-radius: var(--borderRadius) var(--borderRadius) 0 0 !important;
+    margin-bottom: 0;
+}
+
+#openai_api>div.flex-container.flex {
+    justify-content: flex-end;
+}
+
+#api_button_openai,
+#test_api_button,
+.api_loading.menu_button {
+    background-color: var(--bubbleColor) !important;
+    border: unset;
+}
+
+/* koboldai horde */
+/* API context size*/
+.checkbox_label:nth-child(2) {
+    border-radius: var(--borderRadius) var(--borderRadius) 0 0 !important;
+}
+
+/* API response length*/
+.checkbox_label:nth-child(3) {
+    border-radius: 0 0 0 0 !important;
+}
+
+/* API context size*/
+.checkbox_label:nth-child(4) {
+    border-radius: 0 0 var(--borderRadius) var(--borderRadius) !important;
+}
+
+small#adjustedHordeParams {
+    padding-left: 1vw;
+}
+
+#main-API-selector-block>#main_api {
+    margin: unset !important;
+}
+
+#rm_api_block>div.flex-container.flexFlowColumn {
+    gap: 0 !important;
+}
+
+#kobold_horde_block>h4 {
+    padding-top: 3vh !important;
+}
+
+.online_status {
+    justify-content: flex-end;
+}
+
+#viewSecrets {
+    margin-top: 1vh;
+    text-indent: 2vw;
+}

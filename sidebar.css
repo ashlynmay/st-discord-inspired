@@ -1,0 +1,46 @@
+/* Sidebar*/
+#top-bar,
+#top-settings-holder {
+    max-width: var(--sidebar_width);
+    height: 100vh;
+    position: absolute;
+}
+
+#top-settings-holder {
+    flex-direction: column;
+    gap: 0.5vh;
+    justify-content: unset;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 1vh;
+}
+
+#top-bar {
+    left: unset;
+    right: unset;
+    bottom: unset;
+    top: unset;
+    background-color: var(--sidebarColor);
+}
+
+#ai-config-button,
+#sys-settings-button,
+#advanced-formatting-button,
+#WI-SP-button,
+#user-settings-button,
+#logo_block,
+#extensions-settings-button,
+#persona-management-button,
+#rightNavHolder {
+    width: var(--sideBarIconWidth) !important;
+    height: var(--sideBarIconWidth) !important;
+    background-color: var(--bubbleColor);
+    border-radius: 1000px;
+    margin: 1vw;
+}
+
+.drawer-icon {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}

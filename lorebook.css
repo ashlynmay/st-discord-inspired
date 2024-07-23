@@ -1,0 +1,73 @@
+#WI_panel_pin_div {
+    justify-content: center !important;
+}
+
+#world_popup > div.flex-container.alignitemscenter.gap3px {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#world_popup > div.flex-container.alignitemscenter.gap3px #world_create_button {
+    flex: 15%; 
+    margin-left: 4vw;
+    margin-right: 1.5vw;
+}
+
+#world_popup > div.flex-container.alignitemscenter.gap3px #world_editor_select {
+    flex: 45%; 
+    margin-right: 4vw;
+    font-size: 0.75em;
+    margin-left: 1.5vw;
+}
+
+#world_info_search {
+    width: 8em;
+    min-width: unset;
+    flex-grow: 1;
+}
+
+#world_info_sort_order {
+    width: 10em;
+    font-size: 0.75em;
+}
+
+#WIMultiSelector {
+    flex-wrap: nowrap;
+}
+
+#world_info {
+    width: unset;
+}
+
+#WI_panel_pin_div {
+    justify-content: center !important;
+}
+
+#world_create_button {
+    max-width: 20vw;
+    width: 20vw;
+}
+
+#WIMultiSelector > div.range-block-title.justifyLeft {
+    width: 20vw;
+}
+
+#wiTopBlock > div:nth-child(2) > div.range-block-title.justifyLeft {
+    text-align: center;
+    font-size: 1em;
+}
+
+#world_editor_select, #world_info_sort_order, #world_info_search, #WIMultiSelector > div.range-block-range > span > span.selection > span {
+    background-color: var(--buttonColor) !important;
+}
+
+#select2-world_info-container-choice-mg6y-0, #select2-world_info-container > li > button {
+    background-color: transparent !important;
+    border: unset !important;
+    
+}
+
+#world_popup > div.flex-container.alignitemscenter.gap3px {
+    justify-content: center;
+}

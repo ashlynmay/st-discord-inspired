@@ -1,0 +1,126 @@
+/* Global */
+.panelControlBar {
+    right: unset !important;
+    justify-content: flex-start !important;
+    top: 1vh;
+}
+
+.lastInContext {
+    border-top: unset !important;
+}
+
+h3, h3.margin0 {
+    text-align: center;
+    padding-bottom: 1vh;
+    padding-top: 1.5vh;
+}
+
+/* lists */
+ul,
+ol {
+    background-color: var(--bubbleColor);
+    border-radius: var(--borderRadius);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: solid;
+    border-color: var(--brightBlurple);
+    border-width: 2px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    list-style-position: inside;
+}
+
+/* List item */
+li {
+    padding: 2vw;
+}
+
+.checkbox_label {
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bubbleColor);
+    border-radius: var(--borderRadius);
+    padding: 2vw;
+}
+
+/* header spacing */
+h4 {
+    padding-top: 1vh;
+    padding-bottom: 0.25vh;
+}
+
+/*toasts*/
+#toast-container>div {
+    width: calc(98vw - var(--sidebar_width)) !important;
+    margin-left: calc(var(--sidebar_width) + 1.2vw) !important;
+    border-radius: var(--borderRadius);
+}
+
+#toast-container>div>button {
+    padding-right: 2vw !important;
+}
+
+/* text input gap*/
+/* .flex-container {
+    gap: unset;
+} */
+
+/* remove scrollbars */
+body::-webkit-scrollbar,
+#rm_extensions_block::-webkit-scrollbar,
+#rm_api_block::-webkit-scrollbar {
+    display: none !important;
+}
+
+/*Support for Awesome Fonts Icons 6 Free*/
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Reverse checkbox direction*/
+#anchor_checkbox label,
+#power-user-option-checkboxes label,
+.checkbox_label,
+.auto_continue_settings_block {
+    flex-direction: row-reverse;
+}
+
+select {
+    background-color: var(--bubbleColor) !important;
+    border: unset;
+    border-radius: var(--borderRadius);
+    height: 5vh;
+    padding: 7px 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    appearance: none !important;
+    min-width: unset;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-size: 20px 12px;
+    font-weight: bold;
+}
+
+.menu_button {
+    background-color: #373a43;
+    border-radius: 50px;
+    width: 8vw;
+    height: 8vw;
+    border-color: #373a43;
+}
+
+/*Pretty checkbox*/
+input[type="checkbox"] {
+    border-radius: 500px !important;
+    height: 5vw !important;
+    width: 5vw !important;
+    margin: unset !important;
+    margin-left: 2vw !important;
+    top: 0.3vw !important;
+}
+
+/* end of global*/

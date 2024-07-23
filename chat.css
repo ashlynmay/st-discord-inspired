@@ -1,0 +1,137 @@
+/* Chat */
+#send_form #nonQRFormItems {
+    height: 7vh;
+}
+
+#send_form {
+    border: unset;
+    background-color: var(--bgColor) !important;
+    width: var(--content_width);
+}
+
+#leftSendForm {
+    flex-direction: row;
+    flex-wrap: unset;
+    align-items: center;
+    width: unset;
+    gap: 1vw;
+}
+
+
+
+#send_textarea {
+    border-radius: 50px !important;
+    width: calc(var(--content_width) / 2);
+    background-color: var(--bubbleColor);
+    height: 11vw !important;
+    resize: none !important;
+    text-align: center;
+    padding: 2.5vw 0;
+    --progColor: unset;
+    clip-path: unset;
+
+}
+
+#chat {
+    max-height: unset;
+    background-color: var(--bgColor);
+}
+
+#chat > div:nth-child(2) > div.mes_block > div.ch_name.flex-container.justifySpaceBetween > div.flex-container.flex1.alignitemscenter {
+ gap: 2vw !important;   
+}
+
+#extensionsMenuButton,
+#options_button {
+    width: 11vw !important;
+    height: 11vw !important;
+    background-color: var(--bubbleColor);
+    border-radius: 1000px;
+    font-size: 50%;
+    opacity: 1 !important;
+    color: #c7c8cd;
+}
+
+#rightSendForm,
+#send_but {
+    width: 11vw !important;
+    height: 11vw !important;
+    background-color: var(--bubbleColor);
+    border-radius: 1000px;
+    font-size: 70%;
+    opacity: 1 !important;
+}
+
+
+#send_textarea::placeholder {
+    font-size: 0;
+}
+
+#form_sheld {
+    width: unset !important;
+}
+
+#nonQRFormItems {
+    align-content: center !important;
+    flex-wrap: wrap;
+}
+
+#send_form {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.last_mes .mes_text {
+    padding-right: unset;
+}
+
+#options, #extensionsMenu {
+    background-color: var(--bgColor);
+    border-radius:var(--borderRadius);
+    inset: auto auto 2vh 0px !important;
+}
+
+.options-content {
+    border: none;
+}
+
+/* Author's note prompt in chat */
+#floatingPrompt {
+    margin-left: var(--sidebar_width);
+    padding-right: calc(1vw + var(--sidebar_width)) !important;
+}
+
+#ANClose {
+    position: absolute !important;
+    color: var(--blurple);
+}
+
+#sheld, .mes {
+    background-color: var(--bgColor) !important;
+    border: unset !important;
+}
+
+#chat {
+    border-left: unset !important;
+    border-right: unset !important;
+    overflow: scroll !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+}
+
+.name_text {
+    font-size: 0.8em;
+}
+
+.timestamp {
+    font-size: 0.6em;
+}
+
+.mes_buttons {
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
+#form_sheld, #sheld {
+    background-color: var(--bgColor) !important;
+}
